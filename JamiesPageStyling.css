@@ -1,0 +1,23 @@
+.headField {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.headFieldItem {
+    margin: 1em auto;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto;    
+}
+
+.projectHeadings {
+    text-align: center;
+}
+
+.projectImages {
+    display: flex;
+    justify-content: center;
+}
