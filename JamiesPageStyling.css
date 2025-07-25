@@ -10,7 +10,8 @@
 
 .projects {
     display: grid;
-    grid-template-columns: auto auto;    
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
 }
 
 .projectHeadings {
@@ -20,4 +21,8 @@
 .projectImages {
     display: flex;
     justify-content: center;
+}
+
+img {
+    max-width: auto;
 }
