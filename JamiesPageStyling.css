@@ -13,6 +13,9 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     row-gap: 25px;
+    column-gap: 50px;
+    padding: 0px 20px;
+    margin-bottom: 50px;
 }
 
 .projectHeadings {
@@ -26,4 +29,20 @@
 
 img {
     max-width: auto;
+}
+
+html{
+    background-color: antiquewhite;
+}
+
+main {
+    background-color:antiquewhite;
+}
+
+nav {
+    background-color: #0cf5d6;
+}
+
+.projectDescription {
+    background-color: #0cf5d6;
 }
